@@ -70,5 +70,6 @@ public class EventController {
     public ResponseEntity<ApiResponse> deleteEvent(@PathVariable Long id) {
         eventService.deleteEvent(id, null);
         return ResponseEntity.ok(new ApiResponse(true, "Event deleted successfully"));
+
     }
 }
