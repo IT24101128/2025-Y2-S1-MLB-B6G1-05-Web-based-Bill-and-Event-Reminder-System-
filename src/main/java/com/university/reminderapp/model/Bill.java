@@ -1,5 +1,6 @@
 package com.university.reminderapp.model;
 
+
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -1,5 +1,6 @@
 package com.university.reminderapp.repository;
 
+
 import com.university.reminderapp.model.BillNotice;
 import com.university.reminderapp.model.University;
 import org.springframework.data.jpa.repository.JpaRepository;
