@@ -31,6 +31,7 @@ public class ParentWebController {
     @Autowired
     private EventService eventService;
 
+
     @GetMapping("/students")
     public String listStudents(Model model) {
         User currentUser = userService.getCurrentUser();
